@@ -1,7 +1,8 @@
 TestTask
 ========
 
-#Задача#
+Задача
+------
 
 В приложении SQLite  Database c двумя таблицами - 
 user(uid integer, nick varchar(20)), message(uid integer, msg 
@@ -22,7 +23,8 @@ e varchar(25), dd varchar(25), f varchar(25), g integer).
 данные от первой, а не из БД напрямую.
 
 
-#Решение#
+Решение
+-------
 Я заменил атрибут  d varchar(25) из таблицы message на  dd
 varchar(25), так как в данной таблице уже есть атрибут d  integer.
 
